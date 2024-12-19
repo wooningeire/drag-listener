@@ -1,0 +1,33 @@
+{
+  "name": "@vaie/drag-listener",
+  "version": "0.0.0",
+  "description": "Drag listener helper",
+  "files": [
+    "dist/"
+  ],
+  "module": "./dist/index.es.js",
+  "main": "./dist/index.umd.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.4.0"
+  },
+  "dependencies": {
+    "@vaie/listen": "^0.0.2"
+  }
+}
